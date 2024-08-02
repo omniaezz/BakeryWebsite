@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+}
+
+.clr{
+    clear:both;
+}
+
+.fix{
+    width:50px;
+    height:80px;
+    position:fixed;
+    top:200px;
+    right:0px;
+    background-color:whitesmoke;
+}
+ /* welcom section */
+
+ .welcom{
+     text-align: center;
+     background-image: url('images/drew-coffman-1872.jpg');
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-attachment: scroll;
+     height: 100vh;
+     padding:200px;
+     margin:-10px;
+     position: relative;
+ }
+
+ .welcom p{
+     font:28px "Alegreya Sans";
+     color:#ffffffeb;
+     margin-bottom: 30px;
+ }
+
+ .welcom h1{
+     font:70px "Alegreya" ;
+     color: #fff;
+     margin:20px;
+ }
+
+ .welcom btn{
+     border-radius: 5px;
+
+ }
+
+ .welcom .btn1{
+    font:16px "Alegreya Sans";
+    padding:15px 28px;
+    background-color: #8e7754;
+    border:none;
+    margin-right: 10px;;
+    color: #ffffff;   
+ }
+
+ .welcom .btn2{
+    font : 16px "Alegreya Sans";
+    padding:15px 28px;
+    background:none;
+    border-color:#ffffff ;
+    color: #ffffff;
+}
+
+ 
+ /* intro section */
+
+  .intro{
+     margin: 100px 30px 50px 50px;
+ }
+
+ .intro-img{
+    width:50%;
+    float:left;
+    padding-left: 30px;
+    text-align: center;  
+}
+
+.intro-img img{
+    width:80%;
+} 
+
+.intro-text{
+    line-height: 1.86em;
+    width:50%;
+    float: right;
+    padding: 30px;
+}
+
+.intro-text h2{
+    font: 32px 'Alegreya', serif; ;
+    color: #303030;
+}
+
+.intro-text p{
+    font: 18px 'Alegreya', serif ;
+    color: #686868;
+}
+
+.intro-text li{
+    padding:15px;
+    font: 18px 'Alegreya', serif ;
+    color: #686868;   
+}  
+
+
+/* location section */
+
+.location{
+    background-color: #f8f8f8;
+    padding: 100px 30px;
+    margin: -10px;
+}
+
+.loc-text{
+    width: 50%;
+    float:left;
+    line-height: 1.86em;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 100px 30px 50px 100px;
+} 
+
+.loc-text p{
+  color: #686868; 
+  font-size: 18px;
+}
+
+.loc-text h2{
+    font-size: 30px;
+    color: #181717;
+    line-height: 1.38em;
+    font-family: 'Alegreya', serif ;
+}
+
+.loc-image{
+    width:50%;
+    float:right;
+    text-align: center;  
+}
+
+.loc-image img{
+    width:80%;   
+}  
+
+
+/* baking section */
+
+.baking{
+    margin:90px 50px 60px;
+    padding: 0px 30px;
+}
+
+.baking h2{
+    font:32px "Alegreya Sans";
+    text-align: center;
+}
+
+ .baking .pa{
+    text-align: center;
+    color:#888; 
+} 
+
+.bread
+{
+    width:33.33%;
+    float:left;
+    text-align: center;
+    padding:20px;
+}
+
+.bread  .pa2{
+    padding: 20px;
+    color:#888;
+    line-height: 1.60em;
+}
+
+.baking p{
+    font: 17px "Alegreya Sans";
+}
+
+.baking h3{
+    font: 21px "Alegreya Sans";
+}
+
+.baking img{
+    width:100%;
+} 
+
+
+/* map section */
+
+ .map{
+    background-color: #f8f8f8; 
+    margin: -10px;
+    padding:80px 40px 100px;
+}
+
+.contact-info{
+     width:50%;
+    float:left;
+    line-height: 1.60em;
+    padding: 30px 0px 0px 60px;
+}
+
+.map h2{
+    font:30px "Alegreya Sans";
+    color:#303030;
+}
+
+.contact-map{
+    width: 50%;
+    float:right;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+}
+.abs{
+    position: absolute;
+    top:180px;
+    left:300px;
+}
+
+.texta{
+    font:17px "Alegreya Sans";
+    color:#686868;
+    line-height: 1.60em;
+
+}  
+
+/* last section */
+
+.details{
+    background-color: #403d38;
+    padding: 50px;
+}
+
+.details-item{
+    width:25%;
+    float:left;
+}
+.details-item li, p{
+    font: 16px 'Alegreya', serif ;
+}
+
+.details-item li,p{
+    line-height: 2em;
+    color: #969696;
+    list-style-type:circle;
+}
+
+.details-item h4{
+    font: 20px 'Alegreya', serif ;
+    color: white;
+} 
+
+.details-item a{
+    text-decoration: none;
+    color:  #969696;
+}
+
+.back ul{
+    background-size: 70% ;
+}
+
+.bake-image{
+        background-color: #403d38;
+        text-align: center;
+        padding-bottom: 80px;
+}
